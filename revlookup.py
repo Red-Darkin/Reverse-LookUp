@@ -28,7 +28,7 @@ def main():
 
     for ip in ips:
         domain = reverse_lookup(ip)
-        print(f"Dirección IP: {ip} - Dominio: {Fore.GREEN}{domain}")
+        print(f"IP: {ip} - Domain: {Fore.GREEN}{domain}")
 
 if __name__ == "__main__":
     main()
