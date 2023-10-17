@@ -23,7 +23,7 @@ def main():
         with open(filename, 'r') as file:
             ips = file.read().splitlines()
     except FileNotFoundError:
-        print(f"File {F'{filename}' not Found.")
+        print(f"File '{filename}' not Found.")
         sys.exit(1)
 
     for ip in ips:
